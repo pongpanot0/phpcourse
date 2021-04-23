@@ -1,0 +1,81 @@
+body {
+    background: #fafafa;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'helvetica Neue', 'san-serif';
+    font-weight: 50;
+    font-size: 1rem;
+    
+}
+h1,h5{
+    font-weight: 100;
+}
+section{
+    background: #565666;
+    padding: 6rem 3rem;
+    margin: 0;
+}
+.hamburgur {
+    position: absolute;
+    margin: 50px;
+    z-index: 2;
+    cursor : pointer;
+}
+.line {
+    width: 50px;
+    height: 6px;
+    background: #bcad90;
+    margin-bottom: 5px;
+}
+.menu{
+    width: 320px;
+    height: 100%;
+    background: #bcad90;
+    position: fixed;
+    top: 0;
+    left: -320px;
+    transition: left .1s;
+}
+.menu-item:first-child{
+    margin-top: 180px;
+}
+.menu--open {
+    left: 0;
+}
+.menu-item {
+    color: #fff;
+    width: 100%;
+    padding: 1rem 3rem;
+    box-sizing: border-box;
+}
+.menu-item:hover{
+    background: #91966e;
+    cursor: pointer;
+}
+li {
+    color: #e4e4e6
+
+}
+.img-fuild{
+align-content: center
+
+}
+container{
+    widows: 600px;
+}
+containerLeft {
+    float: left;
+    width: 400px;
+}
+containerRight {
+    float: right;
+    width: 400px;
+}
+.col1{
+    float: left;
+    width: 50%;
+    height: 150px;
+}
